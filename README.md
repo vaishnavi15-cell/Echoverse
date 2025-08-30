@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎧 EchoVerse – AI-Powered Audiobook Tool
 
 EchoVerse is a Streamlit-based AI application that allows you to **rewrite text in different tones** and **generate audio** using the KittenTTS model. Perfect for creating AI audiobooks, podcasts, or storytelling projects.
@@ -41,3 +42,6 @@ Dependencies
 streamlit
 kittentts
 soundfile
+=======
+# Echoverse
+>>>>>>> d38cca3fdbf2be10ccb31c484a529b5ae0a67e6a
