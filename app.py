@@ -40,6 +40,22 @@ def rewrite_text(text, tone):
 
     return ' '.join(rewritten_sentences)
 
+# --- Background Image ---
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://plus.unsplash.com/premium_photo-1669863547357-b7d064cedaac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGlnaHQlMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfHx8MA%3D%3D");
+         background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # --- Sidebar ---
 st.sidebar.header("Settings")
 tone = st.sidebar.radio("Choose Tone", ["Neutral", "Suspenseful", "Inspiring"])
